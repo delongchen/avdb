@@ -1,0 +1,26 @@
+{
+  "name": "av",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
+    "@types/mysql": "^2.15.19",
+    "@types/node": "^16.4.14",
+    "@types/node-fetch": "^2.5.12",
+    "js-yaml": "^4.1.0",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "testsql": "ts-node src/data/MySql/index.ts",
+    "testmap": "ts-node src/service/VideoFileService/vidoes.ts"
+  }
+}

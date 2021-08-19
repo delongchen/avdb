@@ -1,0 +1,14 @@
+{
+  "workDir": "/Users/delong/Desktop",
+  "avDir": "/av",
+  "videoDir": "/videos",
+  "coverDir": "/covers",
+  "http": 3333,
+  "mysql": {
+    "host": "pi3.manjaro",
+    "port": 49153,
+    "user": "root",
+    "password": "root",
+    "database": "av"
+  }
+}
